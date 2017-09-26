@@ -117,3 +117,43 @@
     }
   }
 }
+
+table {
+  width: 100%;
+
+  thead {
+    background: $greyDarkBG;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    th {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      text-align: left;
+      font-weight: 500;
+      padding: 20px 10px;
+      color: $greyDarkFont;
+    }
+  }
+
+  tbody {
+    background: #FFF;
+    font-size: 0.8rem;
+
+    td {
+      padding: 20px 10px;
+      color: $greyDarkFont;
+
+      .logo {
+        display: inline-block;
+        background: $greenNeon;
+        padding: 15px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin-right: 20px;
+        color: #FFF;
+      }
+    }
+  }
+}
