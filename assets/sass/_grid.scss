@@ -24,7 +24,7 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-    .col-sm-#{i} {
+    .col-sm-#{$i} {
       width: 100% / $grid-columns * $i;
     }
   }
@@ -36,7 +36,7 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-    .col-md-#{i} {
+    .col-md-#{$i} {
       width: 100% / $grid-columns * $i;
     }
   }
@@ -48,7 +48,7 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-    .col-lg-#{i} {
+    .col-lg-#{$i} {
       width: 100% / $grid-columns * $i;
     }
   }
@@ -60,7 +60,7 @@
     max-width: $grid-max-width;
   }
   @for $i from 1 through $grid-columns {
-    .col-xl-#{i} {
+    .col-xl-#{$i} {
       width: 100% / $grid-columns * $i;
     }
   }
